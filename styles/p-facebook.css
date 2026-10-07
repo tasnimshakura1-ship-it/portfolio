@@ -1,0 +1,53 @@
+.Header {
+        display: flex;
+        border-bottom: 1px solid lightgray;
+        box-shadow: 0 1px 1px rgb(239, 239, 239);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+        font-family: arial;
+        padding-left: 65px;
+        padding-right: 50px;
+      }
+      .left-section {
+        width: 200px;
+        display: flex;
+        align-items: center;
+      }
+      .thorr-img {
+        height: 16px;
+        width: 16px;
+        border-radius: 10px;
+      }
+      .thorfinn {
+        font-size: 10px;
+        margin-left: 5px;
+      }
+      .right-section {
+        display: flex;
+      }
+      .add-friend-button {
+        background-color: rgb(75, 75, 228);
+        color: rgb(199, 226, 245);
+        border: none;
+        height: 22px;
+        margin-right: 4px;
+        border-radius: 3px;
+        font-size: 8px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .message-button {
+        background-color: rgb(216, 214, 214);
+        color: rgb(29, 28, 28);
+        border: none;
+        height: 22px;
+        border-radius: 3px;
+        font-size: 8px;
+        font-weight: bold;
+        cursor: pointer;
+      }
