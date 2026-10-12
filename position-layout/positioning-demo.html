@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position Demo</title>
+  </head>
+  <body style="height: 3000px;
+    padding-top: 50px;
+    padding-left: 70px;">
+    <div style="
+      background-color: black;
+      color: white;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      height: 40px;
+      z-index: 1000;">
+      Header
+    </div>
+    <div style="
+      background-color: green;
+      color: white;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      top: 40px;
+      width: 60px;">
+      Sidebar
+      <div style="
+        position: absolute;
+        background-color: rgb(40, 33, 33);
+        color: rgb(227, 242, 248);
+        top: 0px;
+        right: 0px;
+        cursor: pointer;">
+       X 
+      </div>
+    </div>
+
+    <div style="
+      position: absolute;
+      background-color: rgb(220, 171, 171);
+      color: rgb(4, 73, 101);
+      top: 50px;
+      right: 20px;">
+      Absolute
+    </div>
+
+    <div style="
+      background-color: lightblue;
+      height: 200px;
+      width: 200px;">
+      div 1
+    </div>
+    <div style="
+      background-color: rgb(254, 181, 192);
+      height: 200px;
+      width: 200px;
+      position: relative; /* To set child div's position absolute, it has to be relative to this parent div. */
+      ">
+      div 2
+      <div style="
+        position: absolute;
+        background-color: rgb(7, 7, 7);
+        color: rgb(242, 245, 246);
+        right: 10px;
+        bottom: 10px;">
+       5:00
+      </div>
+    </div>
+    <div style="
+      background-color: black;
+      color: white;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;">
+      Bottom-right
+    </div>
+  </body>
+</html>

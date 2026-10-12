@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Friendcards Div Layout</title>
+    <style>
+      .fb-div {
+        font-family: arial;
+        border: 1px solid lightgray;
+        width: 120px;
+        height: 200px;
+        margin-right: 5px;
+      }
+
+     .jpg-img {
+        width: 120px;
+        height: 120px;
+        object-fit: top;
+        margin-bottom: 0;
+      }
+
+      .tasnim,
+      .naruto,
+      .thor {
+        font-weight: bold;
+        font-size: 12px;
+        margin-top: 2px;
+        margin-left: 3px;
+        margin-bottom: 0;
+      }
+
+      .mutual-friends {
+        font-size: 12px;
+        margin-top: 2px;
+        margin-left: 2px;
+        margin-bottom: 0;
+      }
+
+      .add-friend {
+        background-color: rgb(66, 66, 229);
+        color: rgb(216, 237, 242);
+        font-size: 12px;
+        border: none;
+        width: 85px;
+        height: 25px;
+        margin-top: 6px;
+        margin-left: 4px;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+      }
+      .add-friend:hover {
+        background-color: rgb(59, 59, 206);
+        transition: 0.5s;
+      }
+      
+      .friend-info {
+        display: flex; 
+        gap: 6px;
+        margin-top: 3px;
+      }
+      
+      .mutual-friendsdp {
+        width: 18px;
+        height: 18px;
+        margin-left: 2px;
+      }
+      .obito {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        margin-left: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    column-gap: 10px;
+    align-items: center;">
+      <div class="fb-div">
+        <div>
+          <img class="jpg-img" src="../random-images/IMG_20260109_205148.jpg">
+        </div>
+        <div>
+          <p class="tasnim">
+          Tasnim Shakura
+          </p>
+        </div>
+        <div class="friend-info">
+          <div class="mutual-friendsdp">
+            <img class="obito" src="../random-images/617554347_935025872523658_7918739619956122880_n.jpg">
+          </div>
+          <div>
+          <p class="mutual-friends">
+            2 mutual friends
+          </p>
+          </div>
+        </div>
+        <div>
+          <button class="add-friend">
+          Add Friend
+        </button>
+        </div>
+      </div>
+      <div class="fb-div">
+        <div>
+          <img class="jpg-img" src="../random-images/FB_IMG_1752696501065.jpg">
+        </div>
+        <div>
+          <p class="naruto">
+          Naruto Uzumaki
+          </p>
+        </div>
+        <div class="friend-info">
+          <div class="mutual-friendsdp">
+            <img class="obito" src="../random-images/617554347_935025872523658_7918739619956122880_n.jpg">
+          </div>
+          <div>
+          <p class="mutual-friends">
+            3 mutual friends
+          </p>
+          </div>
+        </div>
+        <div>
+          <button class="add-friend">
+          Add Friend
+        </button>
+        </div>
+      </div>
+      <div class="fb-div">
+        <div>
+          <img class="jpg-img" src="../random-images/FB_IMG_1745392413089.jpg">
+        </div>
+        <div>
+          <p class="thor">
+          Thorfinn
+          </p>
+        </div>
+        <div class="friend-info">
+          <div class="mutual-friendsdp">
+            <img class="obito" src="../random-images/617554347_935025872523658_7918739619956122880_n.jpg">
+          </div>
+          <div>
+          <p class="mutual-friends">
+            4 mutual friends
+          </p>
+          </div>
+        </div>
+        <div>
+        <button class="add-friend">
+          Add Friend
+        </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

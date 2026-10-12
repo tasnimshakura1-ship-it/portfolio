@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navigation Bar Flexbox</title>
+  </head>
+  <body>
+    <div style="
+     font-family: arial;
+     display: flex;
+     background-color: rgb(144, 7, 194);
+     height: 40px;
+     justify-content: space-between;
+     align-items: center;">
+
+      <div style="color: aliceblue;
+       margin-left: 10px;
+       font-size: 12px;
+       font-weight: bold;
+       width: 100px;">
+        Home
+      </div>
+      <div style="
+       flex: 1;
+       max-width: 700px;
+       ">
+        <input style="
+        flex: 1;
+        border-radius: 50px;
+        border: none;
+        height: 20px;
+        font-size: 10px;
+        padding-left: 15px;" type="text" placeholder="Search">
+      </div>
+      <div>
+        <button style="color: rgb(215, 224, 231);
+         background-color: transparent;
+         border: 1.5px solid rgb(205, 203, 203);
+         margin-right: 7px;
+         height: 25px;
+         width: 100px;
+         cursor: pointer;">
+         Download
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

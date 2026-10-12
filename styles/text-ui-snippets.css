@@ -1,0 +1,89 @@
+p {
+  font-family: arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.new {
+  color: rgb(245, 63, 63);
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+.macbook {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.forpros {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.price {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: gray;
+}
+.buy {
+  background-color: rgb(50, 94, 237);
+  font-size: 12px;
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  width: 40px;
+  height: 22px;
+  cursor: pointer;
+}
+.buy:hover {
+  background-color: blue;
+  color: rgb(220, 216, 216);
+}
+.usd {
+  margin-top: 60px;
+  font-size: 30px;
+}
+.usd-modify {
+  font-size: 15px;
+  font-weight: bold;
+  color: grey;
+}
+.percentage {
+  margin-top: 5px;
+  font-size: 15px;
+  color: rgb(5, 146, 5);
+}
+.after-hours {
+  margin-top: 6px;
+  font-size: 15px;
+}
+.hours {
+  color: rgb(96, 94, 94);
+}
+.red {
+  color: rgb(216, 17, 17);
+}
+.freeCodeCamp {
+  margin-top: 60px;
+  font-weight: bold;
+}
+.freeCodeCampAdress {
+  color: grey;
+  font-weight: normal;
+  cursor: pointer;
+}
+.Description {
+  margin-top: 6px;
+}
+.moreDescription {
+  margin-top: 17px;
+}
+.chp-link {
+  color: rgb(9, 168, 231);
+  cursor: pointer;
+}

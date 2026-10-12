@@ -1,0 +1,50 @@
+.google-search-container {
+  margin-top: 30px;
+  text-align: center;
+}
+.google-search-bar {
+  width: 400px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 5px rgb(173, 171, 171);
+  padding-left: 12px;
+  font-weight: bold;
+  font-size: 14px;    
+}
+.google-search-bar::placeholder {
+  color: rgb(153, 151, 151);
+}
+
+.div1 {
+  margin-top: 25px;
+  text-align: center;
+  display: inline-block;
+}
+.google-search {
+  font-weight: bold;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  border: none;
+  background-color: rgb(247, 243, 243);
+}
+.google-search::placeholder {
+  color: rgb(90, 89, 89);
+}
+
+.div2 {
+  display: inline-block;
+  margin-left: 6px;
+}
+.feelings {
+  font-weight: bold;
+  text-align: center;
+  width: 130px;
+  height: 30px;
+  border: none;
+  background-color: rgb(247, 243, 243);
+}
+.feelings::placeholder {
+  color: rgb(90, 89, 89);
+}

@@ -1,0 +1,73 @@
+.fixed-div {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background-color: gray;
+  width: 320px;
+  height: 180px;
+}
+.close-button {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background-color: black;
+  color: white;
+  font-family: arial;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.timestamp {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: black;
+  color: white;
+  padding: 2px 5px;
+  font-family: arial;
+  font-size: 12px;
+}
+.drs-div {
+  position: relative;  /* Parent div should be relative position to put the child div*/
+  display: inline-block;
+  border: 1px solid gray;
+}
+.drs-img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.discount {
+  position: absolute;
+  background-color: black;
+  color: rgb(204, 204, 204);
+  right: 0;
+  top: 10px;
+  font-family: arial;
+  padding: 5px 8px;
+  font-size: 12px;
+}
+.bottom-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: rgba(211, 211, 211, 0.815);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-to-cart-button {
+  position: absolute;
+  font-family: arial;
+  font-weight: 600px;
+  border: 1px solid rgb(28, 28, 28);
+  border-radius: 2px;
+  padding: 5px 8px;
+  font-size: 11px;
+  cursor: pointer;
+}

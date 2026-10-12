@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Block Exercise</title>
+    <style>
+      .name-input {
+        display: block;
+        margin-bottom: 5px;
+      }
+      .email-input {
+        display: block;
+        margin-bottom: 20px;
+      }
+      .quick-survey {
+        display: inline-block;
+        width: 200px;
+        vertical-align: middle;
+      }
+      .yes-input {
+        display: inline-block;
+        width: 27px;
+        background-color: whitesmoke;
+        border: 2px solid gray;
+        border-radius: 3px;
+        padding-left: 6px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .yes-input::placeholder {
+        color: rgba(54, 48, 48, 0.885);
+      }
+      .no-input {
+        display: inline-block;
+        width: 25px;
+        background-color: whitesmoke;
+        border: 2px solid gray;
+        border-radius: 3px;
+        padding-left: 6px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .no-input::placeholder {
+        color: rgba(54, 48, 48, 0.885);
+      }
+    </style>
+  </head>
+  <body>
+   <input class="name-input" type="text" placeholder='Name'>
+   <input class="email-input" type="email" placeholder='Email'>
+
+   <p class="quick-survey">
+    Thanks for chatting with our customer support. Would  you like to take our quick survey? 
+   </p>
+   <input class="yes-input" type="text" placeholder="Yes">
+   <input class="no-input" type="text" placeholder="No">
+  </body>
+</html>
