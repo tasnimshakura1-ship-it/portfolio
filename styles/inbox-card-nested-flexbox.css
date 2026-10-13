@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nested-flexbox {
   display: flex;
   margin-top: 3px;
@@ -40,3 +41,47 @@
  font-size: 11px;
  color: gray;
 }
+=======
+.nested-flexbox {
+  display: flex;
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+.pp1 {
+  height: 32px;
+  width: 32px;
+  object-fit: top;
+  border-radius: 15px;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  line-height: 16px;
+}
+.promo-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.promo {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;
+}
+.time {
+ font-size: 10px;
+ color: gray;
+ flex-shrink: 0;
+}
+.sale {
+  font-size: 11px;
+  font-weight: bold;
+}
+.description {
+ font-size: 11px;
+ color: gray;
+}
+>>>>>>> 3dbc31e220d9319ed7d192c2ad20d90e93110eb9

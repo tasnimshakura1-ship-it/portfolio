@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .backtoamazon-a:hover {
     color: rgb(205, 108, 40);
   }
@@ -46,4 +47,54 @@
   }
   .Buynow-button:active {
     opacity: .5;
+=======
+.backtoamazon-a:hover {
+    color: rgb(205, 108, 40);
+  }
+
+  .NikeBlackRunningShoes-p {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .instock-p {
+    color: rgb(0, 158, 0);
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .addtocart-button {
+    background-color: rgb(243, 224, 14);
+    color: rgb(66, 63, 63);
+    border-style: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  .addtocart-button:hover {
+    background-color: rgb(227, 209, 11)
+  }
+  .addtocart-button:active {
+    opacity: .5;
+  }
+  .Buynow-button {
+    background-color: rgb(212, 159, 61);
+    color: rgb(50, 47, 47);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 15px;
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer;
+  }
+  .Buynow-button:hover {
+    background-color: rgb(186, 139, 53)
+  }
+  .Buynow-button:active {
+    opacity: .5;
+>>>>>>> 3dbc31e220d9319ed7d192c2ad20d90e93110eb9
   }

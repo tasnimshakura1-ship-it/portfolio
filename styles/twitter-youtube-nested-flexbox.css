@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   display: flex;
   height: 200px;
@@ -71,4 +72,79 @@
 }
 .video-title {
   font-size: 14px;
+=======
+.container {
+  display: flex;
+  height: 200px;
+  padding-left: 5px;
+  padding-top: 7px;
+  font-family: arial;
+}
+.image-container {
+  display: flex;
+  align-items: top;
+}
+.twitter-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.twitter-container {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin-left: 10px;
+  line-height: 20px;
+}
+.twitter-header-container {
+  display: flex;
+  flex-direction: row; 
+}
+.twitter-header {
+  font-size: 14px;
+  font-weight: bold;
+}
+.twitter-address {
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+  margin-left: 3px;
+}
+.tweet {
+  font-size: 14px;
+}
+.youtube-container {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  box-shadow: 0px 0px 1px 0.5px rgba(128, 128, 128, 0.573);
+  margin-top: 10px;
+  border-radius: 14px;
+  width: 305px;
+  height: 85px;
+  margin-left: 2px;
+}
+.yt-vid-img {
+  width: 48%;
+  background-color: rgb(213, 211, 211);
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+.youtube-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12px;
+}
+.video-link {
+  font-size: 13px;
+  font-weight: 600;
+}
+.vid-link-a {
+  text-decoration: none;
+  color: gray;
+}
+.video-title {
+  font-size: 14px;
+>>>>>>> 3dbc31e220d9319ed7d192c2ad20d90e93110eb9
 }
